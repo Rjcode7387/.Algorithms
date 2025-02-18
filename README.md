@@ -24,13 +24,13 @@
 <div align="center">
 
 `🥉 Bronze                      ` `0`
-`🥈 Silver                      ` `7`
+`🥈 Silver                      ` `8`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 8 Problems**
+**Total Solved: 9 Problems**
 </div>
 
 <details>
@@ -112,6 +112,8 @@
 
 🥈 [덱 (BOJ 10866)](Solutions/Baekjoon/10866/10866.cpp)
 
+🥈 [Text Formalization (BOJ 1779)](Solutions/Baekjoon/1779/1779.cpp)
+
 </div>
 </details>
 
@@ -131,6 +133,16 @@
 <div align="center">
 
 🥈 [에디터 (BOJ 1406)](Solutions/Baekjoon/1406/1406.cpp)
+
+</div>
+</details>
+
+<details>
+<summary>Parsing</summary>
+
+<div align="center">
+
+🥈 [Text Formalization (BOJ 1779)](Solutions/Baekjoon/1779/1779.cpp)
 
 </div>
 </details>
@@ -165,6 +177,8 @@
 <summary>String</summary>
 
 <div align="center">
+
+🥈 [Text Formalization (BOJ 1779)](Solutions/Baekjoon/1779/1779.cpp)
 
 🥈 [균형잡힌 세상 (BOJ 4949)](Solutions/Baekjoon/4949/4949.cpp)
 
