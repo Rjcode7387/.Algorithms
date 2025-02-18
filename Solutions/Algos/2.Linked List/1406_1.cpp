@@ -1,8 +1,7 @@
 // http://boj.kr/84654f16875542e6a84d3da7e4cf0dac
 #include <bits/stdc++.h>
 using namespace std;
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(0);
   cin.tie(0);
 
@@ -16,31 +15,25 @@ int main(void)
   auto cursor = L.end();
   int q;
   cin >> q;
-  while (q--)
-  {
+  while (q--) {
     char op;
     cin >> op;
 
-    if (op == 'P')
-    {
+    if (op == 'P') {
       char add;
       cin >> add;
       L.insert(cursor, add);
     }
-    else if (op == 'L')
-    {
+    else if (op == 'L') {
       if (cursor != L.begin())
         cursor--;
     }
-    else if (op == 'D')
-    {
+    else if (op == 'D') {
       if (cursor != L.end())
         cursor++;
     }
-    else
-    { // 'B'
-      if (cursor != L.begin())
-      {
+    else { // 'B'
+      if (cursor != L.begin()) {
         cursor--;
         cursor = L.erase(cursor);
       }
