@@ -61,7 +61,9 @@ int main(void) {
     // 동생을 찾을 때까지(k 위치의 거리가 계산될 때까지) BFS 실행
     while (dist[k] == -1) {
         // 현재 위치를 큐에서 추출
-        int cur = Q.front(); Q.pop();
+        int cur = Q.front();
+
+        Q.pop();
 
         // 현재 위치에서 가능한 3가지 이동 방법을 순회
         // 1. cur-1: 한 칸 뒤로 이동

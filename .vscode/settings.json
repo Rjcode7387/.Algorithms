@@ -10,6 +10,7 @@
     "cwd": "${workspaceFolder}"
   },
   "files.associations": {
+    ".fantomasignore": "ignore",
     "*.cpp": "cpp",
     "*.h": "cpp",
     "array": "cpp",
@@ -30,7 +31,12 @@
     "text_encoding": "cpp",
     "regex": "cpp",
     "valarray": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "algorithm": "cpp",
+    "map": "cpp",
+    "memory": "cpp",
+    "any": "cpp"
   },
   "files.exclude": {
     "**/build": false
@@ -53,5 +59,6 @@
   "C_Cpp.vcFormat.indent.namespaceContents": true,
   "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "ignore",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine"
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.default.compilerPath": "C:/MinGW/bin/gcc.exe"
 }

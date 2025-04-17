@@ -110,27 +110,29 @@ void Sol() {
     int cn, an;
     cin >> cn >> an;
     cin.ignore();
-
-    while (cn--) {
-        string crule;
-        getline(cin, crule);
-        size_t splitPos = crule.find(" -> ");
-        string ckey = crule.substr(0, splitPos);
-        string cval = crule.substr(splitPos + 4);
-        RemoveQuotes(ckey);
-        RemoveQuotes(cval);
-        c[ckey] = cval;
+    if (cn > 0) {
+        while (cn--) {
+            string crule;
+            getline(cin, crule);
+            size_t splitPos = crule.find(" -> ");
+            string ckey = crule.substr(0, splitPos);
+            string cval = crule.substr(splitPos + 4);
+            RemoveQuotes(ckey);
+            RemoveQuotes(cval);
+            c[ckey] = cval;
+        }
     }
-
-    while (an--) {
-        string arule;
-        getline(cin, arule);
-        size_t splitPos = arule.find(" -> ");
-        string akey = arule.substr(0, splitPos);
-        string aval = arule.substr(splitPos + 4);
-        RemoveQuotes(akey);
-        RemoveQuotes(aval);
-        a[akey] = aval + " (" + akey + ")";
+    if (an > 0) {
+        while (an--) {
+            string arule;
+            getline(cin, arule);
+            size_t splitPos = arule.find(" -> ");
+            string akey = arule.substr(0, splitPos);
+            string aval = arule.substr(splitPos + 4);
+            RemoveQuotes(akey);
+            RemoveQuotes(aval);
+            a[akey] = aval + " (" + akey + ")";
+        }
     }
 
     string line;
