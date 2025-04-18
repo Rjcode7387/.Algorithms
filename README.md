@@ -24,13 +24,13 @@
 <div align="center">
 
 `🥉 Bronze                      ` `0`
-`🥈 Silver                      ` `9`
+`🥈 Silver                      ` `10`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 10 Problems**
+**Total Solved: 11 Problems**
 </div>
 
 <details>
@@ -41,6 +41,8 @@
 🥈 [숨바꼭질 (BOJ 1697)](Solutions/Baekjoon/1697/1697.cpp)
 
 🥈 [그림 (BOJ 1926)](Solutions/Baekjoon/1926/1926.cpp)
+
+🥈 [미로 탐색 (BOJ 2178)](Solutions/Baekjoon/2178/2178.cpp)
 
 </div>
 </details>
@@ -104,6 +106,8 @@
 
 🥈 [그림 (BOJ 1926)](Solutions/Baekjoon/1926/1926.cpp)
 
+🥈 [미로 탐색 (BOJ 2178)](Solutions/Baekjoon/2178/2178.cpp)
+
 </div>
 </details>
 
@@ -115,6 +119,8 @@
 🥈 [숨바꼭질 (BOJ 1697)](Solutions/Baekjoon/1697/1697.cpp)
 
 🥈 [그림 (BOJ 1926)](Solutions/Baekjoon/1926/1926.cpp)
+
+🥈 [미로 탐색 (BOJ 2178)](Solutions/Baekjoon/2178/2178.cpp)
 
 </div>
 </details>
